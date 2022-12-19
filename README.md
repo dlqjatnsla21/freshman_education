@@ -8,9 +8,9 @@
 Example robots and code for interfacing Gazebo with ROS
 
 ## Install additional packages
-$ sudo apt-get install ros-noetic-joint-state-controller \n
-$ sudo apt-get install ros-noetic-effort-controllers \n
-$ sudo apt-get install ros-noetic-position-controllers \n
+    $ sudo apt-get install ros-noetic-joint-state-controller
+    $ sudo apt-get install ros-noetic-effort-controllers
+    $ sudo apt-get install ros-noetic-position-controllers
 
 ## Tutorials
 
