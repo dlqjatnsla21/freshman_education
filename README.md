@@ -19,10 +19,6 @@ Example robots and code for interfacing Gazebo with ROS
 
 ## Quick Start
 
-Rviz:
-
-    roslaunch rrbot_description rrbot_rviz.launch
-
 Gazebo:
 
     roslaunch rrbot_gazebo rrbot_world.launch
