@@ -7,6 +7,11 @@
 
 Example robots and code for interfacing Gazebo with ROS
 
+## Install additional packages
+$ sudo apt-get install ros-noetic-joint-state-controller
+$ sudo apt-get install ros-noetic-effort-controllers
+$ sudo apt-get install ros-noetic-position-controllers
+
 ## Tutorials
 
 [ROS URDF](http://gazebosim.org/tutorials/?tut=ros_urdf)
