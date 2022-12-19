@@ -27,7 +27,7 @@ ROS Control:
 
 Example of Moving Joints:
 
-    rostopic pub /rrbot/joint2_position_controller/command std_msgs/Float64 "data: -0.9"
+    rosrun rrbot_control control.py
 
 ## Develop and Contribute
 
