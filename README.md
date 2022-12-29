@@ -5,6 +5,12 @@
 * Author: Dave Coleman <davetcoleman@gmail.com>
 * License: GNU General Public License, version 3 (GPL-3.0)
 
+## Install Gazebo
+    $ sudo apt-get update
+    $ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-msgs ros-kinetic-gazebo-plugins ros-kinetic-gazebo-ros-control // ubuntu 16.04
+    $ sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-msgs ros-melodic-gazebo-plugins ros-melodic-gazebo-ros-control // ubuntu 18.04
+    $ sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-neotic-gazebo-msgs ros-noetic-gazebo-plugins ros-noetic-gazebo-ros-control // ubuntu 20.04
+
 Example robots and code for interfacing Gazebo with ROS
 
 ## Install additional packages
