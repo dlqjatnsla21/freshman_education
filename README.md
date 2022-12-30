@@ -1,33 +1,19 @@
-# 2022 freshman_education
-
 # Gazebo ROS Demos
 
 * Author: Dave Coleman <davetcoleman@gmail.com>
 * License: GNU General Public License, version 3 (GPL-3.0)
 
-## Install Gazebo
-    $ sudo apt-get update
-    
-    // for ubuntu 16.04
-    $ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-msgs ros-kinetic-gazebo-plugins ros-kinetic-gazebo-ros-control
-    // for ubuntu 18.04
-    $ sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-msgs ros-melodic-gazebo-plugins ros-melodic-gazebo-ros-control
-    // for ubuntu 20.04
-    $ sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-neotic-gazebo-msgs ros-noetic-gazebo-plugins ros-noetic-gazebo-ros-control
-
 Example robots and code for interfacing Gazebo with ROS
 
-## Install additional packages
-    $ sudo apt-get install ros-noetic-joint-state-controller
-    $ sudo apt-get install ros-noetic-effort-controllers
-    $ sudo apt-get install ros-noetic-position-controllers
+## Tutorials
 
-## Before Start
-
-    $ cd catkin_ws/src/freshman_education/gazebo_ros_demos/rrbot_control/scripts
-    $ chmod +x control.py
+[ROS URDF](http://gazebosim.org/tutorials/?tut=ros_urdf)
 
 ## Quick Start
+
+Rviz:
+
+    roslaunch rrbot_description rrbot_rviz.launch
 
 Gazebo:
 
@@ -39,7 +25,7 @@ ROS Control:
 
 Example of Moving Joints:
 
-    rosrun rrbot_control control.py
+    rostopic pub /rrbot/joint2_position_controller/command std_msgs/Float64 "data: -0.9"
 
 ## Develop and Contribute
 
