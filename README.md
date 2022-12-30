@@ -9,11 +9,11 @@
     $ sudo apt-get update
     
     // for ubuntu 16.04
-    $ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-msgs ros-kinetic-gazebo-plugins ros-kinetic-gazebo-ros-control
+    $ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-plugins ros-kinetic-gazebo-ros-control
     // for ubuntu 18.04
-    $ sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-msgs ros-melodic-gazebo-plugins ros-melodic-gazebo-ros-control
+    $ sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-plugins ros-melodic-gazebo-ros-control
     // for ubuntu 20.04
-    $ sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-neotic-gazebo-msgs ros-noetic-gazebo-plugins ros-noetic-gazebo-ros-control
+    $ sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-plugins ros-noetic-gazebo-ros-control
 
 Example robots and code for interfacing Gazebo with ROS
 
