@@ -39,7 +39,7 @@ ROS Control:
 
 Example of Moving Joints:
 
-    rosrun rrbot_control control.py
+    rosrun rrbot_control position_control.py
 
 ## Develop and Contribute
 
