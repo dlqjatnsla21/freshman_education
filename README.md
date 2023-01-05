@@ -25,7 +25,7 @@ Example robots and code for interfacing Gazebo with ROS
 ## Before Start
 
     $ cd catkin_ws/src/freshman_education/gazebo_ros_demos/rrbot_control/scripts
-    $ chmod +x control.py
+    $ chmod +x *
 
 ## Quick Start
 
