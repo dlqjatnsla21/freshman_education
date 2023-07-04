@@ -5,22 +5,15 @@
 * Author: Dave Coleman <davetcoleman@gmail.com>
 * License: GNU General Public License, version 3 (GPL-3.0)
 
-## Install Gazebo
+## Install Gazebo pkgs (20.04/18.04/16.04 -> noetic/melodic/kinetic)
     $ sudo apt-get update
     
-    // for ubuntu 16.04
-    $ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-plugins ros-kinetic-gazebo-ros-control
-    // for ubuntu 18.04
-    $ sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-plugins ros-melodic-gazebo-ros-control
-    // for ubuntu 20.04
-    $ sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-plugins ros-noetic-gazebo-ros-control
+    $ sudo apt-get install ros-(distro)-gazebo-ros-pkgs ros-(distro)-gazebo-plugins ros-(distro)-gazebo-ros-control
 
 Example robots and code for interfacing Gazebo with ROS
 
-## Install additional packages
-    $ sudo apt-get install ros-noetic-joint-state-controller
-    $ sudo apt-get install ros-noetic-effort-controllers
-    $ sudo apt-get install ros-noetic-position-controllers
+## Install additional packages 
+    $ sudo apt-get install ros-(distro)-joint-state-controller
 
 ## Before Start
 
